@@ -28,7 +28,9 @@ void createvector(struct vector *v)
     int i;
     printf("Enter size of vector :: ");
     scanf("%d", &v->size);
+    getchar();
     printf("Enter %d elements :: ", v->size);
+    getchar();
     for(i = 0; i < v->size; i++)
     {
         printf("enter Element %d :: ", i + 1);
